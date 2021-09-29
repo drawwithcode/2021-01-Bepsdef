@@ -22,14 +22,6 @@ function draw() {
   line(0, 0, slider.value(), 10);
   pop();
 
-  push();
-  translate(width / 2, height / 2);
-  stroke(mouseX, mouseX, 255);
-  noFill();
-  rotate(frameCount * 4);
-  circle(0, 50, 400);
-  circle(0, -50, 400);
-  pop();
 
   push();
   rotate(frameCount / 2);
